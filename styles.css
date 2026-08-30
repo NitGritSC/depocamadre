@@ -3,9 +3,9 @@
   --paper: #fffdf8;
   --ink: #30251f;
   --muted: #74645a;
-  --coral: #d85d4d;
-  --coral-dark: #a93d32;
-  --sage: #71866a;
+  --coral: #a93d32;
+  --coral-dark: #8e3028;
+  --sage: #51644c;
   --line: rgba(48, 37, 31, 0.13);
   --shadow: 0 18px 45px rgba(72, 44, 31, 0.12);
 }
@@ -114,6 +114,8 @@ h2 { margin: 7px 0 20px; font-size: clamp(2.2rem, 5vw, 4.2rem); }
 .gallery img:first-child { height: 674px; grid-row: span 2; }
 
 .visit { background: var(--sage); color: white; }
+.visit .section-kicker { color: #fff1cd; }
+.visit .large-copy { color: white; }
 .details { display: grid; gap: 14px; }
 .detail { padding: 18px 0; border-bottom: 1px solid rgba(255,255,255,.22); }
 .detail b { display: block; color: #fff1cd; margin-bottom: 3px; }
